@@ -139,10 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arreglo.cpp" />
+    <ClCompile Include="Disco.cpp" />
+    <ClCompile Include="Libro.cpp" />
+    <ClCompile Include="Pelicula.cpp" />
     <ClCompile Include="Producto.cpp" />
     <ClCompile Include="Tienda.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Arreglo.h" />
+    <ClInclude Include="Disco.h" />
+    <ClInclude Include="Libro.h" />
+    <ClInclude Include="Pelicula.h" />
     <ClInclude Include="Producto.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
